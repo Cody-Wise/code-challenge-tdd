@@ -46,14 +46,6 @@ test('Multiply Number By 7', (expect) => {
     expect.equal(actual3, expected3, 'Multiply Number By 7');
 });
 
-// skip('this test should be skipped', (expect) => {
-//     const expected = true;
-
-//     const actual = true;
-
-//     expect.equal(actual, expected);
-// });
-
 test('Multiply by 12 then half the number', (expect) => {
     const expected = 24;
 
@@ -212,4 +204,12 @@ test('This function should return a random number between 0 and 5.', (expect) =>
     
 
     expect.equal(typeof answer3, 'number', 'This function should return a random number between 0 and 5.');
+});
+
+skip('this test should be skipped', (expect) => {
+    const expected = true;
+
+    const actual = true;
+
+    expect.equal(actual, expected);
 });

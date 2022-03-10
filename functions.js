@@ -118,7 +118,7 @@ Output:
 
 export function makeLuckyGreeting(firstNumber, secondNumber) {
 
-    const luckyNumber = firstNumber + secondNumber
+    const luckyNumber = firstNumber + secondNumber;
 
     return 'Today\'s lucky number is ' + luckyNumber;
 }
